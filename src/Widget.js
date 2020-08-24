@@ -17,16 +17,16 @@ class Widget extends Component {
     
       initFreshChat() {
         window.fcWidget.init({
-          token: "66cf57d6-66f9-431e-8215-a8e5fc205c07",
+          token: "66cf57d6-****-****-****-a8e5fc205c07",
           host: "https://wchat.freshchat.com",
           open: true
         });
 
         // window.fcWidget.user.setProperties({
-        //   firstName: "ARUN",
-        //   lastName: "S",
-        //   email: "a@gmail.com",
-        //   phone: "9047392918"
+        //   firstName: "Tony",
+        //   lastName: "Stark",
+        //   email: "",
+        //   phone: ""
         // });
       }
     render() {
